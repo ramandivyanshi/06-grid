@@ -1,0 +1,254 @@
+@import './css-reset';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: rgb(222, 230, 241);
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+.row1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+li {
+    padding-left: 2rem;
+}
+
+.list {
+    font-size: x-small;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.welcome {
+    font-size: x-small;
+}
+
+b {
+    font-weight: bolder;
+}
+
+.hello {
+    font-size: xx-large;
+}
+
+.home {
+    color: rgb(231, 173, 65);
+}
+
+.row1_sq1 {
+    position: relative;
+    text-align: centre;
+    color: black;
+}
+
+.home-img {
+    width: 100%;
+}
+
+.stimulus {
+    position: absolute;
+    top: 1rem;
+    left: 7rem;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.getstarted {
+    font-size: x-small;
+    font-weight: bolder;
+    border-radius: 1rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border: 2px solid black;
+    background-color: rgb(255, 210, 255);
+}
+
+.row1_sq2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lorem {
+    padding-bottom: 2rem;
+}
+
+.second_block {
+    background-color: rgb(255, 210, 255);
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+.row2_sq1 {
+    background-color: rgb(232, 244, 248);
+    padding: 0rem 3rem 0rem 3rem;
+}
+
+.donec {
+    padding: 2rem 0rem 0rem 0rem;
+    font-size: xxx-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img2 {
+    width: 100%;
+    height: 100%;
+}
+
+.red {
+    padding: 2rem 0rem 2rem 0rem;
+    color: rgb(240, 105, 52);
+    font-size: medium;
+}
+
+.grey {
+    color: rgb(126, 123, 123);
+}
+
+.row2_sqr2 {
+    width: 100%;
+    height: 50%;
+}
+
+.row2_sq3 {
+    width: 100%;
+    padding: 2rem 3rem 2rem 3rem;
+    background-color: rgb(253, 175, 72);
+}
+
+.list_2 {
+    font-weight: bold;
+    padding: .5rem 0rem .5rem 0rem;
+}
+
+.myskills {
+    padding: .5rem 0rem .5rem 0rem;
+    font-size: xxx-large;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.photoshop {
+    color: white;
+}
+
+progress {
+    background-color: black;
+    border-radius: 2rem;
+    width: 70%;
+    height: 3px;
+}
+
+.bar1 {
+    width: 10%;
+    height: 2px;
+    color: white;
+}
+
+.bar2 {
+    width: 30%;
+    height: 2px;
+    color: white;
+}
+
+.bar3 {
+    width: 20%;
+    height: 2px;
+    color: white;
+}
+
+.row3 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+h1 {
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}
+
+.squares {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.row3_sq1 {
+    background-color: rgb(253, 175, 72);
+}
+
+.row3_sq2 {
+    background-color: rgb(250, 100, 45);
+}
+
+i {
+    color: white;
+}
+
+.row3_sq3 {
+    color: white;
+    background-color: black;
+}
+
+.row3_sq4 {
+    color: rgb(78, 74, 74);
+}
+
+.row4 {
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.img3 {
+    width: 100%;
+    height: 23rem;
+}
+
+.date {
+    color: black;
+}
+
+h2 {
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+.my_exp {
+    padding-bottom: 2rem;
+}
+
+.row4_sq2 {
+    text-align: left;
+    padding: 2rem 1rem 0rem 3rem;
+    background-color: rgb(250, 100, 45);
+}
+
+.previous {
+    padding-bottom: 3rem;
+}
+
+.row5 {
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.row5_sq1 {
+    text-align: left;
+    padding: 2rem 1rem 2rem 3rem;
+    background-color: rgb(253, 175, 72);
+}
