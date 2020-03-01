@@ -317,6 +317,11 @@ progress {
       grid-template-columns: 25% 25% 25% 25%;
 }
 
+.row3 i {
+  font-size: 4rem;
+  padding-bottom: 4rem;
+}
+
 h1 {
   font-size: xx-large;
   padding-bottom: 1rem;
@@ -325,7 +330,7 @@ h1 {
 .squares {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 4rem 2rem;
 }
 
 .row3_sq1 {
@@ -376,12 +381,12 @@ h2 {
 
 .row4_sq2 {
   text-align: left;
-  padding: 2rem 1rem 0rem 3rem;
+  padding: 2rem 1rem 2rem 3rem;
   background-color: #fa642d;
 }
 
 .previous {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .row5 {
@@ -396,5 +401,111 @@ h2 {
   text-align: left;
   padding: 2rem 1rem 2rem 3rem;
   background-color: #fdaf48;
+}
+
+.row6 {
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 25% 25%;
+      grid-template-columns: 50% 25% 25%;
+}
+
+.row6_sq1 {
+  text-align: left;
+  padding: 2rem 1rem 2rem 3rem;
+  background-color: #fa642d;
+}
+
+.yourname {
+  width: 80%;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ffd000;
+}
+
+.youremail {
+  width: 80%;
+  padding: 1rem 0rem 1rem 0rem;
+  border-bottom: 1px solid #ffd000;
+}
+
+.msg {
+  width: 80%;
+  padding: 1rem 0rem 4rem 0rem;
+  border-bottom: 1px solid #ffd000;
+}
+
+.send {
+  padding-top: 3rem;
+}
+
+button {
+  font-size: medium;
+  border-radius: 4rem;
+  padding: 1rem 5rem 1rem 5rem;
+  border-style: none;
+}
+
+.img5 {
+  width: 100%;
+  height: 100%;
+}
+
+.row6_sq3 {
+  background-color: black;
+  text-align: left;
+  padding: 2rem 1rem 2rem 3rem;
+}
+
+.row6_sq3 h1 {
+  font-size: x-large;
+  padding: 3rem 0rem 2rem 0rem;
+}
+
+.row6_sq3 h2 {
+  font-size: x-large;
+}
+
+.map {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #fa642d;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.img6 {
+  width: 70%;
+  margin-left: 15%;
+  -webkit-box-shadow: 10px 10px 20px black;
+          box-shadow: 10px 10px 20px black;
+}
+
+.footer {
+  padding-left: 35%;
+  padding-bottom: 10rem;
+  background-color: blanchedalmond;
+  color: gray;
+}
+
+.footer p {
+  padding: 10rem 0rem 0rem 0rem;
+}
+
+.footer p b {
+  color: #fa642d;
+}
+
+.iconbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.iconbar i {
+  color: gray;
+}
+
+.iconbar li {
+  padding: 2rem 2rem 2rem 2rem;
 }
 /*# sourceMappingURL=style.css.map */
